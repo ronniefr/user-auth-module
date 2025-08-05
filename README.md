@@ -57,7 +57,6 @@
 ### ⚡ Example Usage
 
 '''
-
 from auth_module import AuthModule
 
 auth = AuthModule('users.db')
