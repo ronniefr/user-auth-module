@@ -56,14 +56,14 @@
 
 ### ⚡ Example Usage
 
-'''
+```
 from auth_module import AuthModule
 
 auth = AuthModule('users.db')
 auth.register_user('user1', 'strongpass123')
 success = auth.login_user('user1', 'strongpass123')
 print(success) # True if authenticated
-'''
+```
 
 
 ---
